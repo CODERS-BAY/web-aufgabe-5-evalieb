@@ -1,0 +1,107 @@
+body{
+    background-color: #CBDF90;
+    font-family: Railway, "open sans", sans-serif;
+    margin: auto;
+    border: 0; 
+    max-width: 1200px;
+    display: block;
+    text-align: center;
+}
+
+h1{
+  float: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #50723C;
+    color: #FFB400;
+  }
+  
+li {
+  float: left;
+}
+
+  li a {
+    display: block;
+    color: #FFFBFC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+    
+    /* Change the link color on hover */
+  li a:hover {
+      background-color: #ABDF75;
+    }
+
+  li a:visited {
+    color: black;
+  }
+
+  li a:active {
+    background-color: #FFB400;
+  }
+
+footer {
+    margin-top: 20px;
+}
+
+table{
+    width: 100%;
+
+}
+th{
+    text-align: left;
+}
+
+p{
+  display: none;
+  
+}
+
+div:hover p{
+  display: block;
+}
+
+h2::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+  font-style: oblique;
+  font-family: serif;
+}
+
+a[target] {
+  background-color: #50723C;
+}
+
+input[type="text"] {
+  width: 150px;
+  margin-bottom: 10px;
+  background-color: #FFB400 ;
+}
+
+button[type="submit"] {
+  width: 120px;
+  margin-left: 35px;
+  background-color: #FFB400;
+  border-color: #50723C;
+}
+button[type="reset"] {
+  width: 120px;
+  margin-left: 35px;
+  background-color: #FFB400;
+  color: #ff0000;
+}
+
+[value*="en"]{
+  background-color: #50723C;
+}
+
+form::after {
+  content: url(../img/timer.png);
+
+}
