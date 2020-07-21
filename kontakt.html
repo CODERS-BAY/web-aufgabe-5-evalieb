@@ -20,6 +20,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="info.html">Info</a></li>
                     <li><a class="aktuell" href="kontakt.html">Kontakt</a></li>
+                    <li><a href="impressum.html">Impressum</a></li>
                 </ul>
             </nav>
         </header>
@@ -44,12 +45,12 @@
                     <input type="time" name="Besuchszeit" id="visitTime">
                     <hr>
                     <label for="like">Hat es Ihnen bei uns gefallen?</label>
-                    <div>
+                    <div class="zoobarometer">
                         <input type="range" name="Zoobarometer" min="0" max="10" id="like">
-                        <p>schieben Sie den Riegler nach links für sehr gut!</p>
+                        <p class="zoobarometer">schieben Sie den Riegler nach links für sehr gut!</p>
                     </div><hr>
                     <label for="recommentation">Würden Sie uns weiterempfehlen</label>
-                    <input type="radio" name="Weiterempfehlung" id="yes" value="yes">
+                    <input type="radio" name="Weiterempfehlung" id="yes" value="yes" checked>
                     <label for="yes">Ja</label>
                     <input type="radio" name="Weiterempfehlung" id="no" value="no">
                     <label for="no">Nein</label>
@@ -78,7 +79,7 @@
                         <option value="sonstiges">sonstiger Besuch</option>
                     </select>
                     <hr>
-                    <input type="checkbox" name="Datenverarbeitung" value="Ja" id="accept" required checked>
+                    <input type="checkbox" name="Datenverarbeitung" value="Ja" id="accept" required >
                     <label for="accept">Ich stimme der Verarbeitung meiner Daten zu!<br>
                     <a href="dsgvo.html" target="_blank">Unsere DSGVO</a></label>
                     <hr><hr>

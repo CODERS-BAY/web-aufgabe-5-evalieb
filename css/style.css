@@ -1,5 +1,7 @@
+
+/
 body{
-    background-color: #CBDF90;
+    background-color: rgba(144, 216, 71, 0.7);
     font-family: Railway, "open sans", sans-serif;
     margin: auto;
     border: 0; 
@@ -16,8 +18,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #50723C;
-    color: #FFB400;
+    background-color: rgba(140, 52, 32, .9);
+    color: #90D948;
   }
   
 li {
@@ -35,7 +37,7 @@ li {
     
     /* Change the link color on hover */
   li a:hover {
-      background-color: #ABDF75;
+      background-color: #90D948;
     }
 
   li a:visited {
@@ -43,7 +45,11 @@ li {
   }
 
   li a:active {
-    background-color: #FFB400;
+    background-color: #BF702A;
+  }
+
+[class="aktuell"] {
+    border-style: dotted;
   }
 
 footer {
@@ -58,17 +64,22 @@ th{
     text-align: left;
 }
 
-p{
+p.zoobarometer {
   display: none;
   
 }
 
-div:hover p{
+th::first-letter{
+  font-family: modak;
+  color: #8C3420;
+}
+
+div:hover p.zoobarometer{
   display: block;
 }
 
 h2::first-letter {
-  color: #ff0000;
+  color: #BF702A;
   font-size: xx-large;
   font-style: oblique;
   font-family: serif;
@@ -81,27 +92,43 @@ a[target] {
 input[type="text"] {
   width: 150px;
   margin-bottom: 10px;
-  background-color: #FFB400 ;
+  background-color: #BF702A ;
 }
 
 button[type="submit"] {
   width: 120px;
   margin-left: 35px;
-  background-color: #FFB400;
-  border-color: #50723C;
+  background-color: #BF702A;
+  border-color: #347322;
 }
 button[type="reset"] {
   width: 120px;
   margin-left: 35px;
-  background-color: #FFB400;
-  color: #ff0000;
+  background-color: #90D948;
+  color: #1E4019;
 }
 
 [value*="en"]{
-  background-color: #50723C;
+  background-color: #347322;
 }
 
 form::after {
   content: url(../img/timer.png);
+  width: 20%;
 
 }
+
+.imp {
+  background-image: url(../img/elefant.jpg);
+  padding: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.impressum {
+  padding: 50px;
+  background-color:  rgba(51, 114, 34, .2);
+  color: #90D948;
+}
+
